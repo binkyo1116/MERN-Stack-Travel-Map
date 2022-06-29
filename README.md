@@ -1,460 +1,194 @@
-Contribution: 2018-04-15 20:00
+# MERN-Travel-Map
 
-Contribution: 2018-05-07 20:00
+<div id="top"></div>
 
-Contribution: 2018-05-07 20:01
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="#">
+    <img src="image/logo.png" alt="Logo" width="10%">
+  </a>
 
-Contribution: 2018-05-07 20:02
+  <h3 align="center">Travel Map Pin</h3>
 
-Contribution: 2018-05-07 20:03
+  <p align="center">
+    A single page application built with MERN Stack from scratch (MongoDB + Mongoose, Express, React & NodeJs)
+  </p>
+</div>
 
-Contribution: 2018-05-12 20:00
+<!-- TABLE OF CONTENTS -->
 
-Contribution: 2018-05-12 20:01
+## Table of Content
 
-Contribution: 2018-05-12 20:02
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
 
-Contribution: 2018-05-12 20:03
+<!-- ABOUT THE PROJECT -->
 
-Contribution: 2018-05-12 20:04
+## About The Project
 
-Contribution: 2018-05-12 20:05
+In this application, you can pin your location and share your reviews with other users.
 
-Contribution: 2018-05-12 20:06
+The users can pin their favourite locations on the map to which the users can rate them, write some descripion about that place which other users can see.
 
-Contribution: 2018-05-16 20:00
+Here are some of the basis functions:
 
-Contribution: 2018-05-16 20:01
+- Register
+<p align="center"><img src="image/register.png" alt="Logo" width="70%"></p>
 
-Contribution: 2018-05-16 20:02
+- Login
+<p align="center"><img src="image/login.png" alt="Logo" width="70%"></p>
 
-Contribution: 2018-05-16 20:03
+- Pin a location
+<p align="center"><img src="image/pin.png" alt="Logo" width="70%"></p>
 
-Contribution: 2018-05-16 20:04
+- Review & Rating
+<p align="center"><img src="image/review.png" alt="Logo" width="70%"></p>
 
-Contribution: 2018-05-16 20:05
+- Preview all locations on the map
+<p align="center"><img src="image/preview.png" alt="Logo" width="70%"></p>
 
-Contribution: 2018-05-21 20:00
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Contribution: 2018-05-21 20:01
+### Built With
 
-Contribution: 2018-05-21 20:02
+For front end
 
-Contribution: 2018-05-21 20:03
+- [ReactJS v17.0.2](https://reactjs.org/)
 
-Contribution: 2018-05-21 20:04
+For the backend API
 
-Contribution: 2018-05-21 20:05
+- [NodeJS](https://nodejs.org/en/)
+- [Express Framework](https://expressjs.com/)
+- [Mapbox API](https://www.mapbox.com/)
 
-Contribution: 2018-05-21 20:06
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Contribution: 2018-05-21 20:07
+<!-- GETTING STARTED -->
 
-Contribution: 2018-05-21 20:08
+## Getting Started
 
-Contribution: 2018-05-24 20:00
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-Contribution: 2018-05-24 20:01
+### Prerequisites
 
-Contribution: 2018-05-26 20:00
+For the web application to work, you only need to have a knowledge about ReactMapGl. React App using the ReactMapGL component to use mapbox to display a map theme.
 
-Contribution: 2018-05-26 20:01
+ReactMapGl component props that take from MAPBOX are: mapboxApiAccessToken and mapStyle.
 
-Contribution: 2018-05-26 20:02
+Access key and mapStyle can be found once a MapBox account has been created where the access token will be visible at the bottom of the page. Mapstyle token can be found on Mapbox under Tools & resources, where Design in mapbox studio is selected to select a visual design theme and a code is then generated.
 
-Contribution: 2018-05-26 20:03
+### Installation
 
-Contribution: 2018-05-26 20:04
+1. Clone the repo and change to that folder
 
-Contribution: 2018-05-26 20:05
+    ```sh
+    git clone https://github.com/trongbui1105/MERN-Travel-Map.git
+    ```
 
-Contribution: 2018-05-26 20:06
+2. Install packages for the backend
 
-Contribution: 2018-05-27 20:00
+   - Move to backend folder
 
-Contribution: 2018-05-27 20:01
+    ```sh
+    cd backend
 
-Contribution: 2018-05-27 20:02
+    yarn install
+    ```
 
-Contribution: 2018-05-27 20:03
+   - Update the MongoDB URL (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/backend/.env.example))
 
-Contribution: 2018-05-28 20:00
+    ```sh
+        MONGO_URL = <ADD_YOUR_MONGODB_URL>
+    ```
 
-Contribution: 2018-05-28 20:01
+   - Run the server
 
-Contribution: 2018-05-28 20:02
+    ```sh
 
-Contribution: 2018-05-28 20:03
+    yarn start
+    ```
 
-Contribution: 2018-05-29 20:00
+3. Install packages for the frontend
 
-Contribution: 2018-05-29 20:01
+   - Move to frontend folder
 
-Contribution: 2018-05-31 20:00
+    ```sh
+    cd frontend
 
-Contribution: 2018-05-31 20:01
+    yarn install
+    ```
 
-Contribution: 2018-05-31 20:02
+   - Get a free API Key from Mapbox at [their website](https://www.mapbox.com/).
 
-Contribution: 2018-05-31 20:03
+   - Update the API in "./frontend/.env" (You can see it in [.env.example](https://github.com/trongbui1105/MERN-Travel-Map/blob/master/frontend/.env.example))
 
-Contribution: 2018-06-07 20:00
+    ```sh
+    REACT_APP_MAPBOX = <YOUR_MAPBOX_API_KEY>
+    ```
 
-Contribution: 2018-06-07 20:01
+   - Run the frontend server
+    ```sh
+    yarn start
+    ```
 
-Contribution: 2018-06-07 20:02
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Contribution: 2018-06-07 20:03
+<!-- USAGE EXAMPLES -->
 
-Contribution: 2018-06-07 20:04
+## Usage
 
-Contribution: 2018-06-07 20:05
+As the introduction indicated, this is an app where you can register, log in then write a review and rating of places you have visited. Users can go on the app and see other user's comments on the map.
 
-Contribution: 2018-06-07 20:06
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Contribution: 2018-06-07 20:07
+<!-- CONTRIBUTING -->
 
-Contribution: 2018-06-07 20:08
+## Contributing
 
-Contribution: 2018-06-09 20:00
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Contribution: 2018-06-20 20:00
+Please make sure to update tests as appropriate.
 
-Contribution: 2018-06-20 20:01
+Don't forget to give the project a star! Thanks again!
 
-Contribution: 2018-06-20 20:02
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Contribution: 2018-06-20 20:03
+<!-- LICENSE -->
 
-Contribution: 2018-06-20 20:04
+## License
 
-Contribution: 2018-06-21 20:00
+[MIT](https://choosealicense.com/licenses/mit/)
 
-Contribution: 2018-06-21 20:01
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-Contribution: 2018-06-23 20:00
+<!-- CONTACT -->
 
-Contribution: 2018-06-24 20:00
+## Contact
 
-Contribution: 2018-06-24 20:01
+Bùi Quốc Trọng
 
-Contribution: 2018-06-24 20:02
+[Facebook](https://www.facebook.com/BQTrong/)
 
-Contribution: 2018-06-24 20:03
+[Email](buiquoctrong110500@gmail.com)
 
-Contribution: 2018-06-24 20:04
+♥
 
-Contribution: 2018-06-24 20:05
-
-Contribution: 2018-06-24 20:06
-
-Contribution: 2018-06-24 20:07
-
-Contribution: 2018-06-25 20:00
-
-Contribution: 2018-06-25 20:01
-
-Contribution: 2018-06-25 20:02
-
-Contribution: 2018-06-25 20:03
-
-Contribution: 2018-06-25 20:04
-
-Contribution: 2018-06-28 20:00
-
-Contribution: 2018-06-28 20:01
-
-Contribution: 2018-06-28 20:02
-
-Contribution: 2018-06-28 20:03
-
-Contribution: 2018-06-28 20:04
-
-Contribution: 2018-06-29 20:00
-
-Contribution: 2018-06-29 20:01
-
-Contribution: 2018-06-29 20:02
-
-Contribution: 2018-06-29 20:03
-
-Contribution: 2018-06-29 20:04
-
-Contribution: 2018-06-29 20:05
-
-Contribution: 2018-06-29 20:06
-
-Contribution: 2018-06-29 20:07
-
-Contribution: 2018-06-29 20:08
-
-Contribution: 2018-07-03 20:00
-
-Contribution: 2018-07-03 20:01
-
-Contribution: 2018-07-03 20:02
-
-Contribution: 2018-07-03 20:03
-
-Contribution: 2018-07-03 20:04
-
-Contribution: 2018-07-03 20:05
-
-Contribution: 2018-07-03 20:06
-
-Contribution: 2018-07-03 20:07
-
-Contribution: 2018-07-03 20:08
-
-Contribution: 2018-07-17 20:00
-
-Contribution: 2018-07-23 20:00
-
-Contribution: 2018-07-23 20:01
-
-Contribution: 2018-07-23 20:02
-
-Contribution: 2018-07-28 20:00
-
-Contribution: 2018-07-30 20:00
-
-Contribution: 2018-07-30 20:01
-
-Contribution: 2018-07-30 20:02
-
-Contribution: 2018-07-30 20:03
-
-Contribution: 2018-07-30 20:04
-
-Contribution: 2018-07-30 20:05
-
-Contribution: 2018-07-30 20:06
-
-Contribution: 2018-07-30 20:07
-
-Contribution: 2018-07-30 20:08
-
-Contribution: 2018-08-01 20:00
-
-Contribution: 2018-08-02 20:00
-
-Contribution: 2018-08-02 20:01
-
-Contribution: 2018-08-02 20:02
-
-Contribution: 2018-08-02 20:03
-
-Contribution: 2018-08-02 20:04
-
-Contribution: 2018-08-02 20:05
-
-Contribution: 2018-08-05 20:00
-
-Contribution: 2018-08-05 20:01
-
-Contribution: 2018-08-05 20:02
-
-Contribution: 2018-08-05 20:03
-
-Contribution: 2018-08-06 20:00
-
-Contribution: 2018-08-06 20:01
-
-Contribution: 2018-08-06 20:02
-
-Contribution: 2018-08-06 20:03
-
-Contribution: 2018-08-06 20:04
-
-Contribution: 2018-08-06 20:05
-
-Contribution: 2018-08-06 20:06
-
-Contribution: 2018-08-07 20:00
-
-Contribution: 2018-08-07 20:01
-
-Contribution: 2018-08-07 20:02
-
-Contribution: 2018-08-07 20:03
-
-Contribution: 2018-08-07 20:04
-
-Contribution: 2018-08-07 20:05
-
-Contribution: 2018-08-07 20:06
-
-Contribution: 2018-08-07 20:07
-
-Contribution: 2018-08-08 20:00
-
-Contribution: 2018-08-08 20:01
-
-Contribution: 2018-08-10 20:00
-
-Contribution: 2018-08-10 20:01
-
-Contribution: 2018-08-12 20:00
-
-Contribution: 2018-08-12 20:01
-
-Contribution: 2018-08-12 20:02
-
-Contribution: 2018-08-12 20:03
-
-Contribution: 2018-08-12 20:04
-
-Contribution: 2018-08-17 20:00
-
-Contribution: 2018-08-23 20:00
-
-Contribution: 2018-08-23 20:01
-
-Contribution: 2018-08-23 20:02
-
-Contribution: 2018-08-23 20:03
-
-Contribution: 2018-08-23 20:04
-
-Contribution: 2018-08-23 20:05
-
-Contribution: 2018-08-23 20:06
-
-Contribution: 2018-08-23 20:07
-
-Contribution: 2018-08-23 20:08
-
-Contribution: 2018-08-24 20:00
-
-Contribution: 2018-08-27 20:00
-
-Contribution: 2018-08-27 20:01
-
-Contribution: 2018-08-27 20:02
-
-Contribution: 2018-08-27 20:03
-
-Contribution: 2018-09-12 20:00
-
-Contribution: 2018-09-12 20:01
-
-Contribution: 2018-09-14 20:00
-
-Contribution: 2018-09-14 20:01
-
-Contribution: 2018-09-14 20:02
-
-Contribution: 2018-09-14 20:03
-
-Contribution: 2018-09-14 20:04
-
-Contribution: 2018-09-16 20:00
-
-Contribution: 2018-09-16 20:01
-
-Contribution: 2018-09-16 20:02
-
-Contribution: 2018-09-16 20:03
-
-Contribution: 2018-09-16 20:04
-
-Contribution: 2018-09-16 20:05
-
-Contribution: 2018-09-21 20:00
-
-Contribution: 2018-09-21 20:01
-
-Contribution: 2018-09-21 20:02
-
-Contribution: 2018-09-21 20:03
-
-Contribution: 2018-09-24 20:00
-
-Contribution: 2018-09-24 20:01
-
-Contribution: 2018-09-24 20:02
-
-Contribution: 2018-09-24 20:03
-
-Contribution: 2018-09-24 20:04
-
-Contribution: 2018-09-24 20:05
-
-Contribution: 2018-09-26 20:00
-
-Contribution: 2018-09-26 20:01
-
-Contribution: 2018-09-26 20:02
-
-Contribution: 2018-09-27 20:00
-
-Contribution: 2018-09-27 20:01
-
-Contribution: 2018-09-27 20:02
-
-Contribution: 2018-09-27 20:03
-
-Contribution: 2018-10-02 20:00
-
-Contribution: 2018-10-02 20:01
-
-Contribution: 2018-10-02 20:02
-
-Contribution: 2018-10-12 20:00
-
-Contribution: 2018-10-12 20:01
-
-Contribution: 2018-10-13 20:00
-
-Contribution: 2018-10-13 20:01
-
-Contribution: 2018-10-13 20:02
-
-Contribution: 2018-10-13 20:03
-
-Contribution: 2018-10-15 20:00
-
-Contribution: 2018-10-15 20:01
-
-Contribution: 2018-10-15 20:02
-
-Contribution: 2018-10-15 20:03
-
-Contribution: 2018-10-15 20:04
-
-Contribution: 2018-10-15 20:05
-
-Contribution: 2018-10-15 20:06
-
-Contribution: 2018-10-15 20:07
-
-Contribution: 2018-10-16 20:00
-
-Contribution: 2018-10-16 20:01
-
-Contribution: 2018-10-16 20:02
-
-Contribution: 2018-10-16 20:03
-
-Contribution: 2018-10-16 20:04
-
-Contribution: 2018-10-16 20:05
-
-Contribution: 2018-10-16 20:06
-
-Contribution: 2018-10-16 20:07
-
-Contribution: 2018-10-16 20:08
-
-Contribution: 2018-10-25 20:00
-
-Contribution: 2018-10-25 20:01
-
-Contribution: 2018-10-25 20:02
-
-Contribution: 2018-10-25 20:03
-
-Contribution: 2018-10-25 20:04
-
-Contribution: 2018-10-25 20:05
-
+<p align="right">(<a href="#top">back to top</a>)</p>
