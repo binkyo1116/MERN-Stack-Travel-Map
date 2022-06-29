@@ -170,25 +170,3 @@ Please make sure to update tests as appropriate.
 Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTACT -->
-
-## Contact
-
-Bùi Quốc Trọng
-
-[Facebook](https://www.facebook.com/BQTrong/)
-
-[Email](buiquoctrong110500@gmail.com)
-
-♥
-
-<p align="right">(<a href="#top">back to top</a>)</p>
